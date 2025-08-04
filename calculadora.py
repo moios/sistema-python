@@ -19,7 +19,7 @@ class Calculadora:
 
     def potencia(self, base, exponente):
         """Calcula la potencia de un número"""
-        pass
+        return (f"la potencia es"+ base ** exponente)
 
     def raiz_cuadrada(self, a):
         """Calcula la raíz cuadrada de un número"""
