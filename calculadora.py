@@ -11,13 +11,13 @@ class Calculadora:
 
     def multiplicacion(self, a, b):
         """Multiplica dos números"""
-        pass
+        return a*b #Practica Git realizada by Alex
 
     def division(self, a, b):
         """Divide dos números"""
         pass
 
-    def potencia(self, base, exponente):
+    def potencia(self, base, exponente):         
         """Calcula la potencia de un número"""
         pass
 
