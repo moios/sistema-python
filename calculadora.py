@@ -1,4 +1,5 @@
 # calculadora.py
+import math
 
 class Calculadora:
     def suma(self, a, b):
@@ -7,7 +8,7 @@ class Calculadora:
 
     def resta(self, a, b):
         """Resta dos números"""
-        pass
+        return
 
     def multiplicacion(self, a, b):
         """Multiplica dos números"""
@@ -31,7 +32,10 @@ class Calculadora:
 
     def logaritmo(self, a, base=10):
         """Calcula el logaritmo de un número con base 10 por defecto"""
-        pass
+        if a <= 0:
+            raise ValueError("El argumento 'a' debe ser mayor que 0")
+
+        return math.log10(a)
 
     def valor_absoluto(self, a):
         """Devuelve el valor absoluto de un número"""
