@@ -3,7 +3,7 @@
 class Calculadora:
     def suma(self, a, b):
         """Suma dos números"""
-        pass
+        return a + b # retorna la suma: by Moises
 
     def resta(self, a, b):
         """Resta dos números"""
