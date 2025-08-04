@@ -15,7 +15,7 @@ class Calculadora:
 
     def division(self, a, b):
         """Divide dos números"""
-        pass
+        return a/b #retorna la division: by Manuel
 
     def potencia(self, base, exponente):
         """Calcula la potencia de un número"""
