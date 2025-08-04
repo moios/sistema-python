@@ -7,7 +7,7 @@ class Calculadora:
 
     def resta(self, a, b):
         """Resta dos números"""
-        pass
+        return a - b # retorna la resta. by Regina
 
     def multiplicacion(self, a, b):
         """Multiplica dos números"""
